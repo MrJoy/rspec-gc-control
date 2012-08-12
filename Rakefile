@@ -19,7 +19,7 @@ RUNTIME_GROUPS=Bundler.definition.groups - DEVELOPMENT_GROUPS
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "rspec-gc-control"
-  gem.homepage = "http://MrJoy.com"
+  gem.homepage = "http://github.com/MrJoy/rspec-gc-control"
   gem.license = "MIT"
   gem.summary = %Q{Explicit control over garbage collection behavior for RSpec.}
   gem.description = %Q{Explicit control over garbage collection behavior for RSpec.}

@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rspec-gc-control"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Frisby"]
@@ -26,10 +26,10 @@ Gem::Specification.new do |s|
     "lib/rspec-gc-control/example.rb",
     "rspec-gc-control.gemspec"
   ]
-  s.homepage = "http://MrJoy.com"
+  s.homepage = "http://github.com/MrJoy/rspec-gc-control"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.23"
+  s.rubygems_version = "1.8.24"
   s.summary = "Explicit control over garbage collection behavior for RSpec."
 
   if s.respond_to? :specification_version then
