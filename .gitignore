@@ -1,14 +1,20 @@
 /.rvmrc
+
+/.bundle
+/bin
+
+*.sw?
+
 /.yardoc
-/*.sw?
-/coverage*
 /doc
 /rdoc
+
 /pkg
+
+/coverage*
 /tmp
 # tags
 # rerun.txt
-.bundle
+
 *.rbc
-/bin
 /.rbx
