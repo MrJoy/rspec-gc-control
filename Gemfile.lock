@@ -58,6 +58,6 @@ DEPENDENCIES
   jeweler (~> 1.8.4)
   rake (~> 0.9.2)
   redcarpet
-  rspec-core (~> 2.11.1)
+  rspec-core (>= 2.11.1)
   yard
   yard-cucumber

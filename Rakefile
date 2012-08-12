@@ -13,10 +13,9 @@ RSpec::Core::RakeTask.new(:spec) do |t|
   t.ruby_opts = %w[-w]
 end
 
+require 'jeweler'
 DEVELOPMENT_GROUPS=[:development, :test]
 RUNTIME_GROUPS=Bundler.definition.groups - DEVELOPMENT_GROUPS
-
-require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "rspec-gc-control"
@@ -49,7 +48,7 @@ Jeweler::Tasks.new do |gem|
     # dev_resolved = Bundler.definition.specs_for(DEVELOPMENT_GROUPS).select { |spec| spec.name == dep.name }.first
     runtime_resolved = Bundler.definition.specs_for(Bundler.definition.groups - DEVELOPMENT_GROUPS).select { |spec| spec.name == dep.name }.first
     if(!runtime_resolved.nil?)
-      gem.add_dependency(dep.name, "~> #{runtime_resolved.version}")
+      gem.add_dependency(dep.name, ">= #{runtime_resolved.version}")
     else
       # In gem mode, we don't want/need dev tools that would be useful for
       # mucking with the Optimizer itself...

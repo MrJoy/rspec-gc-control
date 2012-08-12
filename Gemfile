@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'rspec-core', '~> 2.11.1'
+gem 'rspec-core', '>= 2.11.1'
 
 group :development do
   gem 'rake', '~> 0.9.2'
