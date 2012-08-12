@@ -1,0 +1,13 @@
+/.rvmrc
+/*.sw?
+/coverage*
+/doc
+/rdoc
+/pkg
+/tmp
+# tags
+# rerun.txt
+.bundle
+*.rbc
+/bin
+/.rbx

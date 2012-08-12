@@ -1,0 +1,4 @@
+--default_path spec
+--order rand
+--color
+--require ./lib/rspec-gc-control
