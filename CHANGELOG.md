@@ -1,5 +1,13 @@
 ### dev
-[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/1d2bd61...master)
+[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/v1.0.0...master)
+
+Changes
+
+* Forgot to update changelog before tagging release.
+
+
+### v1.0.0
+[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/1d2bd61...v1.0.0)
 
 Initial Version
 
