@@ -84,8 +84,8 @@ end
 
 require 'yard'
 YARD::Rake::YardocTask.new do |t|
-  t.files   = ['features/**/*.feature', 'features/**/*.rb', 'lib/**/*.rb']
-#  t.options = ['--any', '--extra', '--opts'] # optional
+  # t.files   = ['features/**/*.feature', 'features/**/*.rb', 'lib/**/*.rb']
+  # t.options = ['--any', '--extra', '--opts'] # optional
 end
 
 task :default => [:spec, :cucumber]
