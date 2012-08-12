@@ -73,15 +73,15 @@ end
 Jeweler::RubygemsDotOrgTasks.new
 
 
-# desc "delete generated files"
-# task :clobber do
-#   sh %q{find . -name "*.rbc" | xargs rm}
-#   sh 'rm -rf pkg'
-#   sh 'rm -rf tmp'
+desc "delete generated files"
+task :clobber do
+  sh %q{find . -name "*.rbc" | xargs rm}
+  sh 'rm -rf pkg'
+  sh 'rm -rf tmp'
 #   sh 'rm -rf coverage'
 #   sh 'rm -rf .yardoc'
 #   sh 'rm -rf doc'
-# end
+end
 
 # desc "generate rdoc"
 # task :rdoc do
