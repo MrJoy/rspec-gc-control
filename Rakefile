@@ -67,7 +67,7 @@ Jeweler::Tasks.new do |gem|
     fn =~ /^spec/ ||
     fn =~ /^features/ ||
     fn =~ /^tmp/ ||
-    fn =~ /^log/ ||
+    fn =~ /^doc/ ||
     fn =~ /^vendor\/cache/
   end
 end
