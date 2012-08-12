@@ -5,18 +5,20 @@ module RSpec
     # Extensions to RSpec::Core::Configuration to allow configuration of
     # desired GC behavior.
     class Configuration
-      # If set to a value above 0, turns automatic GC off and runs it only every
-      # N tests, which can result in higher peak memory usage but lower total
-      # execution time.
+      # @private
       define_reader :gc_every_n_examples
 
+      # @private
       alias_method :initialize_without_gc, :initialize
 
+      # Overridden constructor to initialize `gc_every_n_examples` to 0.
+      # This disables the explicit GC control.
       def initialize
         initialize_without_gc
         @gc_every_n_examples = 0
       end
 
+      # @private
       def gc_if_needed
         gc_time = 0
         if(@gc_every_n_examples > 0)
@@ -35,6 +37,9 @@ module RSpec
         return gc_time
       end
 
+      # If set to a value above 0, turns automatic GC off and runs it only
+      # every N tests, which can result in higher peak memory usage but lower
+      # total execution time.
       def gc_every_n_examples=(n)
         if(defined?(JRuby))
           warn "Ignoring gc_every_n_examples because JRuby doesn't support GC control."

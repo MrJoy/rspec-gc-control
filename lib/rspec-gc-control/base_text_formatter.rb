@@ -6,6 +6,8 @@ module RSpec
 
       class BaseTextFormatter < BaseFormatter
 
+        # Overridden version of this method, to include output about forced GC
+        # count and duration, if explicit GC control is enabled.
         def dump_summary(duration, example_count, failure_count, pending_count)
           super(duration, example_count, failure_count, pending_count)
           # Don't print out profiled info if there are failures, it just clutters the output

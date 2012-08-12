@@ -1,0 +1,10 @@
+--no-private
+--markup markdown
+--plugin yard-cucumber
+--no-document
+-
+CHANGELOG.md
+LICENSE
+features/**/*.feature
+features/**/*.rb
+lib/**/*.rb
