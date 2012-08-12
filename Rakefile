@@ -62,6 +62,8 @@ Jeweler::Tasks.new do |gem|
     fn =~ /^VERSION/ ||
     fn =~ /^cucumber\.yml/ ||
     fn =~ /^\.rspec/ ||
+    fn =~ /^\.document/ ||
+    fn =~ /^\.yardopts/ ||
     fn =~ /^spec/ ||
     fn =~ /^features/ ||
     fn =~ /^tmp/ ||
