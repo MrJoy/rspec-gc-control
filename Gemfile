@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 gem 'rspec-core', '>= 2.11.1'
 
