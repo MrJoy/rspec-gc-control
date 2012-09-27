@@ -7,17 +7,12 @@ require "yaml"
 require "cucumber/rake/task"
 Cucumber::Rake::Task.new(:cucumber)
 
-require "rspec/core/rake_task"
-desc "Run all examples"
-RSpec::Core::RakeTask.new(:spec) do |t|
-  t.ruby_opts = %w[-w]
-end
-
 require 'jeweler'
 DEVELOPMENT_GROUPS=[:development, :test]
 RUNTIME_GROUPS=Bundler.definition.groups - DEVELOPMENT_GROUPS
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
+  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20
+  # for more options.
   gem.name = "rspec-gc-control"
   gem.homepage = "http://github.com/MrJoy/rspec-gc-control"
   gem.license = "MIT"
