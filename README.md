@@ -1,5 +1,7 @@
 # rspec-gc-control
 
+[![Code Climate](https://codeclimate.com/github/MrJoy/rspec-gc-control.png)](https://codeclimate.com/github/MrJoy/rspec-gc-control)
+
 ## Summary
 
 This gem extends RSpec to allow you to control how often GC cycles happen
