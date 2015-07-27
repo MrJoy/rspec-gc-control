@@ -1,12 +1,12 @@
-### v1.0.1r1
-[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/v1.0.0...v1.0.1)
+### v1.0.1airbnb1
+[full changelog](http://github.com/airbnb/rspec-gc-control/compare/v1.0.0...v1.0.1)
 
 Changes
 
 * Added support for RSpec 3.
 
 ### dev
-[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/v1.0.1...master)
+[full changelog](http://github.com/airbnb/rspec-gc-control/compare/v1.0.1...master)
 
 Changes
 
@@ -14,7 +14,7 @@ Changes
 * Add CodeClimate badge to `README.md`.
 
 ### v1.0.1
-[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/v1.0.0...v1.0.1)
+[full changelog](http://github.com/airbnb/rspec-gc-control/compare/v1.0.0...v1.0.1)
 
 Changes
 
@@ -22,7 +22,7 @@ Changes
 * Changing gemspec homepage to github repo.
 
 ### v1.0.0
-[full changelog](http://github.com/MrJoy/rspec-gc-control/compare/1d2bd61...v1.0.0)
+[full changelog](http://github.com/airbnb/rspec-gc-control/compare/1d2bd61...v1.0.0)
 
 Initial Version
 
