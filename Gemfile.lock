@@ -61,6 +61,3 @@ DEPENDENCIES
   rspec-core (>= 2.11.1)
   yard
   yard-cucumber
-
-BUNDLED WITH
-   1.10.5
