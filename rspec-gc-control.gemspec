@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rspec-gc-control"
-  s.version = "1.0.1"
+  s.version = "1.0.1airbnb2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Frisby"]
